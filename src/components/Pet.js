@@ -2,11 +2,6 @@ import React from 'react'
 
 class Pet extends React.Component {
 
-  // adoptPet = event => {
-  //   console.log(event.target.id);
-  //   this.props.onAdoptPet(event.target.id)
-  // }
-
   onAdoptPet = event => {
     this.props.onAdoptPet(this.props.pet.id)
   }
